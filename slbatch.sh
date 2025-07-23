@@ -6,7 +6,7 @@
 #SBATCH --job-name=HARRY
 #SBATCH -o ./log/SLURM.%N.%j.out         # STDOUT
 #SBATCH -e ./log/SLURM.%N.%j.err         # STDERR
-
+#SBATCH --time=1-00:00:00    # D-HH:MM:SS 포맷
 
 module purge
 
@@ -26,3 +26,4 @@ module load ansys-electronics/v242
 # cd /gpfs/home2/wjddn5916/ANSYS
 
 $HOME/PythonProjects/.venv_g/bin/python3 run_N.py
+sleep 86400
