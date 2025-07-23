@@ -1,0 +1,1 @@
+pip install git+https://github.com/Glaysia/PeetsFEA.git@0.1.1#egg=PeetsFEA
