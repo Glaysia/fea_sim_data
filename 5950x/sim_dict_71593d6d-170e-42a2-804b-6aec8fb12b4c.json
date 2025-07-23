@@ -1,0 +1,370 @@
+{
+  "aedt_dir": "parrarel5",
+  "xformer_type": 0,
+  "per": 3000,
+  "freq_khz": 140,
+  "is_validated": true,
+  "data": {
+    "simulation parameter": "   A [mm]  B [mm]  C [mm]  core_N_w1 [mm]  core_P_w1 [mm]  D [mm]  E [mm]  \\\n0    70.4      66    18.8              15               3    33.6    24.2   \n\n   g1 [mm]  g2 [mm]  h1 [mm]  l1_center [mm]  l1_leg [mm]  l1_top [mm]  \\\n0      0.1     0.22     48.4            18.8          2.2          9.4   \n\n   l2 [mm]  l2_tap [mm]  ratio [mm]  Rx_height [mm]  Rx_hTurns []  \\\n0     23.6            0        0.51           0.035             1   \n\n   Rx_layer_space_x [mm]  Rx_layer_space_y [mm]  Rx_preg [mm]  \\\n0                    4.7                    2.2          0.02   \n\n   Rx_space_x [mm]  Rx_space_y [mm]  Rx_tap [mm]  Rx_turns [mm]  \\\n0              4.5              3.8           17              2   \n\n   Rx_width [mm]   seed [mm]  Tx_height [mm]  Tx_hTurns []  \\\n0            2.7  4168750447           0.105             7   \n\n   Tx_layer_space_x [mm]  Tx_layer_space_y [mm]  Tx_preg [mm]  \\\n0                    1.4                      4          0.03   \n\n   Tx_space_x [mm]  Tx_space_y [mm]  Tx_tap [mm]  Tx_turns [mm]  \\\n0              2.1              1.2           13             14   \n\n   Tx_width [mm]  w1 [mm]  Freq [kHz]  Matrix1.L(Tx1,Tx1) [mH]  \\\n0           0.49     52.4         140                 1.088997   \n\n   Matrix1.L(Rx1,Rx1) [uH]  Matrix1.L(Rx2,Rx2) [uH]  Matrix1.L(Tx1,Rx1) [uH]  \\\n0                43.893075                43.921531              -216.379512   \n\n   Matrix1.L(Tx1,Rx2) [uH]  Matrix1.CplCoef(Tx1,Rx1) []  \\\n0              -216.383455                    -0.989703   \n\n   Matrix1.CplCoef(Tx1,Rx2) []  \\\n0                      -0.9894   \n\n   Matrix1.L(Tx1,Tx1)*(Matrix1.CplCoef(Tx1,Rx1)^2) [mH]  \\\n0                                           1.066685      \n\n   Matrix1.L(Rx1,Rx1)*(Matrix1.CplCoef(Tx1,Rx1)^2) [uH]  \\\n0                                          42.993773      \n\n   Matrix1.L(Rx2,Rx2)*(Matrix1.CplCoef(Tx1,Rx2)^2) [uH]  \\\n0                                          42.995341      \n\n   Matrix1.L(Tx1,Tx1)*(1-Matrix1.CplCoef(Tx1,Rx1)^2) [uH]  \\\n0                                          22.311886        \n\n   Matrix1.L(Rx1,Rx1)*(1-Matrix1.CplCoef(Tx1,Rx1)^2) [nH]  \\\n0                                         899.302031        \n\n   Matrix1.L(Rx2,Rx2)*(1-Matrix1.CplCoef(Tx1,Rx2)^2) [nH]  \n0                                          926.19033       ",
+    "_get_magnetic_report": {
+      "Ltx_uH": 1088.99706590495,
+      "Lrx1_uH": 43.8930753682217,
+      "Lrx2_uH": 43.9215309528949,
+      "M1_uH": 216.379511545045,
+      "M2_uH": 216.383455433714,
+      "k1_uH": 0.989702747462848,
+      "k2_uH": 0.989400127744723,
+      "Lmt_uH": 1066.68518037744,
+      "Lmr1_uH": 42.9937733372725,
+      "Lmr2_uH": 42.995340622452,
+      "Llt_uH": 22.3118855275069,
+      "Llr1_uH": 0.8993020309491571,
+      "Llr2_uH": 0.9261903304429371
+    }
+  },
+  "o3ds": {
+    "core_base": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x76188e6a7f70>",
+    "core_sub1": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x76188e6a7e80>",
+    "core_sub2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x76188e6a7f10>",
+    "core_sub_g1": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x76188e6a7fa0>",
+    "core_sub_g2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x76188e6a7e50>",
+    "core_unite_sub_g1": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x76188e6a7fd0>",
+    "Tx_connect": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x76188e6a6380>",
+    "Tx_1": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x76188e6a7ee0>",
+    "Tx_2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7618870e1510>",
+    "Rx_False_True_connect": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x76188e6a6290>",
+    "Rx_False_True_1": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7618870e0bb0>",
+    "Rx_False_True_2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7618870e1900>",
+    "Rx_True_True_connect": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7618870e1630>",
+    "Rx_True_True_1": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7618870e02b0>",
+    "Rx_True_True_2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7618870e1cc0>"
+  },
+  "progress": "_get_copper_loss_parameter",
+  "progress_dict": {
+    "2025-07-22 19:16:24": [
+      "set_variable_byrange",
+      "0.2119s"
+    ],
+    "2025-07-22 19:16:31": [
+      "validate_variable_4Tx",
+      "0.4651s"
+    ],
+    "2025-07-22 19:16:32": [
+      "validate_variable",
+      "2.0161s"
+    ],
+    "2025-07-22 19:16:33": [
+      "create_core",
+      "0.4264s"
+    ],
+    "2025-07-22 19:16:34": [
+      "validate_variable_4Tx",
+      "0.9629s"
+    ],
+    "2025-07-22 19:16:35": [
+      "validate_variable_4Rx",
+      "0.9245s"
+    ],
+    "2025-07-22 19:16:37": [
+      "create_winding_new",
+      "0.6240s"
+    ],
+    "2025-07-22 19:16:38": [
+      "assign_mesh",
+      "0.0166s"
+    ],
+    "2025-07-22 19:16:44": [
+      "validate_design",
+      "0.2208s"
+    ],
+    "2025-07-22 19:48:52": [
+      "analyze_all",
+      "1928.5192s"
+    ],
+    "2025-07-22 19:48:54": [
+      "get_input_parameter",
+      "0.0026s"
+    ]
+  },
+  "start_time_pretty": "2025-07-22 19:15:43",
+  "start_time": "115152390278103",
+  "end_time_pretty": "2025-07-22 19:48:54",
+  "end_time": "117143549718794",
+  "design_name": "xform_5_Design",
+  "project_name": "xform_5_Project",
+  "modeler": "<ansys.aedt.core.modeler.modeler_3d.Modeler3D object at 0x7618b475ae00>",
+  "v": {
+    "w1": 52.4,
+    "l1_leg": 2.2,
+    "l1_top": 9.4,
+    "l1_center": 18.8,
+    "l2": 23.6,
+    "h1": 48.4,
+    "l2_tap": 0.0,
+    "ratio": 0.51,
+    "Tx_turns": 14.0,
+    "Tx_tap": 13.0,
+    "Tx_height": 0.105,
+    "Tx_preg": 0.03,
+    "Rx_turns": 2.0,
+    "Rx_tap": 17.0,
+    "Rx_height": 0.035,
+    "Rx_preg": 0.02,
+    "g1": 0.1,
+    "g2": 0.22,
+    "Tx_space_x": 2.1,
+    "Tx_space_y": 1.2,
+    "Rx_space_x": 4.5,
+    "Rx_space_y": 3.8,
+    "core_N_w1": 15.0,
+    "core_P_w1": 3.0,
+    "Tx_layer_space_x": 1.4,
+    "Tx_layer_space_y": 4.0,
+    "Rx_layer_space_x": 4.7,
+    "Rx_layer_space_y": 2.2,
+    "Tx_width": 0.49,
+    "Rx_width": 2.7,
+    "seed": 4168750447,
+    "A": 70.4,
+    "B": 66.0,
+    "C": 18.8,
+    "D": 33.6,
+    "E": 24.2
+  },
+  "comments": [],
+  "coils_main": [
+    "Tx_1",
+    "Rx_False_True_1",
+    "Rx_True_True_1"
+  ],
+  "sim_global": {
+    "sim": "<peetsfea.xformermaker.project1.project2.Project2 object at 0x7618b4a27c10>",
+    "debugging": false
+  },
+  "r": {
+    "w1": [
+      2,
+      52,
+      1.2,
+      1
+    ],
+    "l1_leg": [
+      1,
+      12,
+      1.2,
+      3
+    ],
+    "l1_top": [
+      1,
+      12,
+      1.2,
+      3
+    ],
+    "l1_center": [
+      2,
+      25,
+      1.2,
+      3
+    ],
+    "l2": [
+      2,
+      25,
+      1.2,
+      3
+    ],
+    "h1": [
+      4,
+      52,
+      1.2,
+      2
+    ],
+    "l2_tap": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "ratio": [
+      0.5,
+      0.5,
+      0.01,
+      2
+    ],
+    "Tx_turns": [
+      14,
+      14,
+      1,
+      0
+    ],
+    "Tx_tap": [
+      2,
+      35,
+      1,
+      0
+    ],
+    "Tx_height": [
+      0.035,
+      0.175,
+      0.035,
+      3
+    ],
+    "Tx_preg": [
+      0.01,
+      0.1,
+      0.01,
+      2
+    ],
+    "Rx_turns": [
+      2,
+      2,
+      1,
+      0
+    ],
+    "Rx_tap": [
+      2,
+      35,
+      1,
+      0
+    ],
+    "Rx_height": [
+      0.035,
+      0.175,
+      0.035,
+      3
+    ],
+    "Rx_preg": [
+      0.01,
+      0.1,
+      0.01,
+      2
+    ],
+    "g1": [
+      0.1,
+      0.1,
+      0.01,
+      2
+    ],
+    "g2": [
+      0,
+      0.5,
+      0.01,
+      2
+    ],
+    "Tx_space_x": [
+      0.1,
+      7,
+      0.1,
+      2
+    ],
+    "Tx_space_y": [
+      0.1,
+      7,
+      0.1,
+      2
+    ],
+    "Rx_space_x": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Rx_space_y": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "core_N_w1": [
+      0,
+      30,
+      1,
+      0
+    ],
+    "core_P_w1": [
+      0,
+      30,
+      1,
+      0
+    ],
+    "Tx_layer_space_x": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Tx_layer_space_y": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Rx_layer_space_x": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Rx_layer_space_y": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Tx_width": [
+      0.1,
+      12,
+      0.01,
+      2
+    ],
+    "Rx_width": [
+      1,
+      20,
+      0.1,
+      1
+    ]
+  },
+  "mat": "<ansys.aedt.core.modules.material.Material object at 0x76188e6a60e0>",
+  "bp_point": [
+    [
+      0,
+      0
+    ],
+    [
+      0.05,
+      20.32
+    ],
+    [
+      0.06,
+      35.08
+    ],
+    [
+      0.07,
+      55.3
+    ],
+    [
+      0.08,
+      80.4
+    ],
+    [
+      0.09,
+      111.05
+    ],
+    [
+      0.1,
+      156.79
+    ],
+    [
+      0.2,
+      1002.4
+    ]
+  ],
+  "setting": {
+    "cores": 1,
+    "tasks": 1,
+    "gpus": 1,
+    "use_auto_settings": false
+  },
+  "Lmt_uH": 1066.68518037744,
+  "input_parameter": "     w1  l1_leg  l1_top  l1_center    l2    h1  l2_tap  ratio  Tx_turns  \\\n0  52.4     2.2     9.4       18.8  23.6  48.4     0.0   0.51      14.0   \n\n   Tx_tap  Tx_height  Tx_preg  Rx_turns  Rx_tap  Rx_height  Rx_preg   g1  \\\n0    13.0      0.105     0.03       2.0    17.0      0.035     0.02  0.1   \n\n     g2  Tx_space_x  Tx_space_y  Rx_space_x  Rx_space_y  core_N_w1  core_P_w1  \\\n0  0.22         2.1         1.2         4.5         3.8       15.0        3.0   \n\n   Tx_layer_space_x  Tx_layer_space_y  Rx_layer_space_x  Rx_layer_space_y  \\\n0               1.4               4.0               4.7               2.2   \n\n   Tx_width  Rx_width        seed     A     B     C     D     E  \n0      0.49       2.7  4168750447  70.4  66.0  18.8  33.6  24.2  ",
+  "exception": "FileNotFoundError(2, 'No such file or directory')"
+}

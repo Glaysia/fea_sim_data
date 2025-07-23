@@ -1,0 +1,304 @@
+{
+  "aedt_dir": "parrarel6",
+  "xformer_type": 0,
+  "per": 3000,
+  "freq_khz": 140,
+  "is_validated": true,
+  "data": {},
+  "o3ds": {
+    "core_base": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x00000233060C55D0>",
+    "core_sub1": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x00000233060C55A0>",
+    "core_sub2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x00000233060C53C0>",
+    "core_sub_g1": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x00000233060C5300>",
+    "core_sub_g2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x00000233060C5630>",
+    "core_unite_sub_g1": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x00000233060C5360>"
+  },
+  "progress": "validate_variable_4Rx",
+  "progress_dict": {
+    "2025-07-23 04:02:18": [
+      "set_variable_byrange",
+      "0.2500s"
+    ],
+    "2025-07-23 04:02:33": [
+      "validate_variable_4Core",
+      "0.6250s"
+    ],
+    "2025-07-23 04:02:35": [
+      "validate_variable_4Tx",
+      "2.0310s"
+    ],
+    "2025-07-23 04:02:46": [
+      "create_core",
+      "1.5150s"
+    ]
+  },
+  "start_time_pretty": "2025-07-23 03:59:42",
+  "start_time": "561779140000000",
+  "end_time_pretty": "2025-07-23 04:02:46",
+  "end_time": "561963265000000",
+  "design_name": "xform_6_Design",
+  "project_name": "xform_6_Project",
+  "modeler": "<ansys.aedt.core.modeler.modeler_3d.Modeler3D object at 0x0000023305157A60>",
+  "v": {
+    "w1": 27.2,
+    "l1_leg": 11.8,
+    "l1_top": 7.0,
+    "l1_center": 10.4,
+    "l2": 2.0,
+    "h1": 52.0,
+    "l2_tap": 0.0,
+    "ratio": 0.5,
+    "Tx_turns": 14.0,
+    "Tx_tap": 23.0,
+    "Tx_height": 0.035,
+    "Tx_preg": 0.03,
+    "Rx_turns": 2.0,
+    "Rx_tap": 33.0,
+    "Rx_height": 0.175,
+    "Rx_preg": 0.05,
+    "g1": 0.1,
+    "g2": 0.4,
+    "Tx_space_x": 0.2,
+    "Tx_space_y": 2.5,
+    "Rx_space_x": 3.0,
+    "Rx_space_y": 1.2,
+    "core_N_w1": 2.0,
+    "core_P_w1": 3.0,
+    "Tx_layer_space_x": 1.1,
+    "Tx_layer_space_y": 4.7,
+    "Rx_layer_space_x": 3.6,
+    "Rx_layer_space_y": 0.3,
+    "Tx_width": 0.1,
+    "Rx_width": 16.1,
+    "seed": 4272477576,
+    "A": 38.0,
+    "B": 14.4,
+    "C": 10.4,
+    "D": 33.0,
+    "E": 26.0
+  },
+  "comments": [],
+  "coils_main": [],
+  "sim_global": {
+    "sim": "<peetsfea.xformermaker.project1.project2.Project2 object at 0x00000233523FF940>",
+    "debugging": false
+  },
+  "r": {
+    "w1": [
+      2,
+      52,
+      1.2,
+      1
+    ],
+    "l1_leg": [
+      1,
+      12,
+      1.2,
+      3
+    ],
+    "l1_top": [
+      1,
+      12,
+      1.2,
+      3
+    ],
+    "l1_center": [
+      2,
+      25,
+      1.2,
+      3
+    ],
+    "l2": [
+      2,
+      25,
+      1.2,
+      3
+    ],
+    "h1": [
+      4,
+      52,
+      1.2,
+      2
+    ],
+    "l2_tap": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "ratio": [
+      0.5,
+      0.5,
+      0.01,
+      2
+    ],
+    "Tx_turns": [
+      14,
+      14,
+      1,
+      0
+    ],
+    "Tx_tap": [
+      2,
+      35,
+      1,
+      0
+    ],
+    "Tx_height": [
+      0.035,
+      0.175,
+      0.035,
+      3
+    ],
+    "Tx_preg": [
+      0.01,
+      0.1,
+      0.01,
+      2
+    ],
+    "Rx_turns": [
+      2,
+      2,
+      1,
+      0
+    ],
+    "Rx_tap": [
+      2,
+      35,
+      1,
+      0
+    ],
+    "Rx_height": [
+      0.035,
+      0.175,
+      0.035,
+      3
+    ],
+    "Rx_preg": [
+      0.01,
+      0.1,
+      0.01,
+      2
+    ],
+    "g1": [
+      0.1,
+      0.1,
+      0.01,
+      2
+    ],
+    "g2": [
+      0,
+      0.5,
+      0.01,
+      2
+    ],
+    "Tx_space_x": [
+      0.1,
+      7,
+      0.1,
+      2
+    ],
+    "Tx_space_y": [
+      0.1,
+      7,
+      0.1,
+      2
+    ],
+    "Rx_space_x": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Rx_space_y": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "core_N_w1": [
+      0,
+      30,
+      1,
+      0
+    ],
+    "core_P_w1": [
+      0,
+      30,
+      1,
+      0
+    ],
+    "Tx_layer_space_x": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Tx_layer_space_y": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Rx_layer_space_x": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Rx_layer_space_y": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Tx_width": [
+      0.1,
+      12,
+      0.01,
+      2
+    ],
+    "Rx_width": [
+      1,
+      20,
+      0.1,
+      1
+    ]
+  },
+  "mat": "<ansys.aedt.core.modules.material.Material object at 0x000002330518FBB0>",
+  "bp_point": [
+    [
+      0,
+      0
+    ],
+    [
+      0.05,
+      20.32
+    ],
+    [
+      0.06,
+      35.08
+    ],
+    [
+      0.07,
+      55.3
+    ],
+    [
+      0.08,
+      80.4
+    ],
+    [
+      0.09,
+      111.05
+    ],
+    [
+      0.1,
+      156.79
+    ],
+    [
+      0.2,
+      1002.4
+    ]
+  ],
+  "exception": "TimeoutError(\"validate_variable() timed out after 10 seconds\\nself.v: {'w1': 27.2, 'l1_leg': 11.8, 'l1_top': 7.0, 'l1_center': 10.4, 'l2': 2.0, 'h1': 52.0, 'l2_tap': 0.0, 'ratio': 0.5, 'Tx_turns': 14.0, 'Tx_tap': 23.0, 'Tx_height': 0.035, 'Tx_preg': 0.03, 'Rx_turns': 2.0, 'Rx_tap': 33.0, 'Rx_height': 0.175, 'Rx_preg': 0.05, 'g1': 0.1, 'g2': 0.4, 'Tx_space_x': 0.2, 'Tx_space_y': 2.5, 'Rx_space_x': 3.0, 'Rx_space_y': 1.2, 'core_N_w1': 2.0, 'core_P_w1': 3.0, 'Tx_layer_space_x': 1.1, 'Tx_layer_space_y': 4.7, 'Rx_layer_space_x': 3.6, 'Rx_layer_space_y': 0.3, 'Tx_width': 0.1, 'Rx_width': 16.1, 'seed': 4272477576, 'A': 38.0, 'B': 14.4, 'C': 10.4, 'D': 33.0, 'E': 26.0}\")"
+}
