@@ -1,0 +1,329 @@
+{
+  "aedt_dir": "parrarel5",
+  "xformer_type": 0,
+  "per": 3000,
+  "freq_khz": 140,
+  "is_validated": true,
+  "data": {},
+  "o3ds": {
+    "core_base": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7b3e49da32b0>",
+    "core_sub1": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7b3e49da34c0>",
+    "core_sub2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7b3e49da31f0>",
+    "core_sub_g1": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7b3e49da3520>",
+    "core_sub_g2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7b3e49da3220>",
+    "core_unite_sub_g1": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7b3e49da3250>",
+    "Tx_connect": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7b3e49da31c0>",
+    "Tx_1": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7b3e49da0f40>",
+    "Tx_2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7b3e497d0790>",
+    "Rx_False_True_connect": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7b3e49da3340>",
+    "Rx_False_True_1": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7b3e49da0400>",
+    "Rx_False_True_2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7b3e497d09d0>",
+    "Rx_True_True_connect": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7b3e49da3e20>",
+    "Rx_True_True_1": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7b3e49da3ca0>",
+    "Rx_True_True_2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7b3e497d0ca0>"
+  },
+  "progress": "validate_design",
+  "progress_dict": {
+    "2025-07-24 05:11:53": [
+      "set_variable_byrange",
+      "0.0845s"
+    ],
+    "2025-07-24 05:11:57": [
+      "validate_variable_4Core",
+      "0.1566s"
+    ],
+    "2025-07-24 05:11:58": [
+      "create_core",
+      "0.1956s"
+    ],
+    "2025-07-24 05:11:59": [
+      "validate_variable_4Rx",
+      "0.4269s"
+    ],
+    "2025-07-24 05:12:00": [
+      "create_winding_new",
+      "0.2248s"
+    ],
+    "2025-07-24 05:12:01": [
+      "assign_mesh",
+      "0.0076s"
+    ],
+    "2025-07-24 05:12:03": [
+      "create_excitation",
+      "2.0903s"
+    ]
+  },
+  "start_time_pretty": "2025-07-24 05:11:36",
+  "start_time": "237305653544488",
+  "end_time_pretty": "2025-07-24 05:12:03",
+  "end_time": "237332232149872",
+  "design_name": "xform_5_Design",
+  "project_name": "xform_5_Project",
+  "modeler": "<ansys.aedt.core.modeler.modeler_3d.Modeler3D object at 0x7b3e6f357d00>",
+  "v": {
+    "w1": 15.2,
+    "l1_leg": 11.8,
+    "l1_top": 7.0,
+    "l1_center": 4.4,
+    "l2": 3.2,
+    "h1": 16.0,
+    "l2_tap": 0.0,
+    "ratio": 0.51,
+    "Tx_turns": 14.0,
+    "Tx_tap": 19.0,
+    "Tx_height": 0.035,
+    "Tx_preg": 0.04,
+    "Rx_turns": 2.0,
+    "Rx_tap": 7.0,
+    "Rx_height": 0.105,
+    "Rx_preg": 0.06,
+    "g1": 0.1,
+    "g2": 0.21,
+    "Tx_space_x": 0.4,
+    "Tx_space_y": 0.4,
+    "Rx_space_x": 1.6,
+    "Rx_space_y": 4.6,
+    "core_N_w1": 8.0,
+    "core_P_w1": 2.0,
+    "Tx_layer_space_x": 1.5,
+    "Tx_layer_space_y": 0.8,
+    "Rx_layer_space_x": 4.8,
+    "Rx_layer_space_y": 1.0,
+    "Tx_width": 0.26,
+    "Rx_width": 1.5,
+    "seed": 4267182591,
+    "A": 34.4,
+    "B": 10.8,
+    "C": 4.4,
+    "D": 15.0,
+    "E": 8.0
+  },
+  "comments": [],
+  "coils_main": [
+    "Tx_1",
+    "Rx_False_True_1",
+    "Rx_True_True_1"
+  ],
+  "sim_global": {
+    "sim": "<peetsfea.xformermaker.project1.project2.Project2 object at 0x7b3e6fb07c10>",
+    "debugging": false
+  },
+  "r": {
+    "w1": [
+      2,
+      52,
+      1.2,
+      1
+    ],
+    "l1_leg": [
+      1,
+      12,
+      1.2,
+      3
+    ],
+    "l1_top": [
+      1,
+      12,
+      1.2,
+      3
+    ],
+    "l1_center": [
+      2,
+      25,
+      1.2,
+      3
+    ],
+    "l2": [
+      2,
+      25,
+      1.2,
+      3
+    ],
+    "h1": [
+      4,
+      52,
+      1.2,
+      2
+    ],
+    "l2_tap": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "ratio": [
+      0.5,
+      0.5,
+      0.01,
+      2
+    ],
+    "Tx_turns": [
+      14,
+      14,
+      1,
+      0
+    ],
+    "Tx_tap": [
+      2,
+      35,
+      1,
+      0
+    ],
+    "Tx_height": [
+      0.035,
+      0.175,
+      0.035,
+      3
+    ],
+    "Tx_preg": [
+      0.01,
+      0.1,
+      0.01,
+      2
+    ],
+    "Rx_turns": [
+      2,
+      2,
+      1,
+      0
+    ],
+    "Rx_tap": [
+      2,
+      35,
+      1,
+      0
+    ],
+    "Rx_height": [
+      0.035,
+      0.175,
+      0.035,
+      3
+    ],
+    "Rx_preg": [
+      0.01,
+      0.1,
+      0.01,
+      2
+    ],
+    "g1": [
+      0.1,
+      0.1,
+      0.01,
+      2
+    ],
+    "g2": [
+      0,
+      0.5,
+      0.01,
+      2
+    ],
+    "Tx_space_x": [
+      0.1,
+      7,
+      0.1,
+      2
+    ],
+    "Tx_space_y": [
+      0.1,
+      7,
+      0.1,
+      2
+    ],
+    "Rx_space_x": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Rx_space_y": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "core_N_w1": [
+      0,
+      30,
+      1,
+      0
+    ],
+    "core_P_w1": [
+      0,
+      30,
+      1,
+      0
+    ],
+    "Tx_layer_space_x": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Tx_layer_space_y": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Rx_layer_space_x": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Rx_layer_space_y": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Tx_width": [
+      0.1,
+      12,
+      0.01,
+      2
+    ],
+    "Rx_width": [
+      1,
+      20,
+      0.1,
+      1
+    ]
+  },
+  "mat": "<ansys.aedt.core.modules.material.Material object at 0x7b3e6edef8e0>",
+  "bp_point": [
+    [
+      0,
+      0
+    ],
+    [
+      0.05,
+      20.32
+    ],
+    [
+      0.06,
+      35.08
+    ],
+    [
+      0.07,
+      55.3
+    ],
+    [
+      0.08,
+      80.4
+    ],
+    [
+      0.09,
+      111.05
+    ],
+    [
+      0.1,
+      156.79
+    ],
+    [
+      0.2,
+      1002.4
+    ]
+  ],
+  "exception": "AssertionError('validate_simple failed')"
+}
