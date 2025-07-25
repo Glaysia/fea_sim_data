@@ -1,4 +1,4 @@
-pip install git+https://github.com/Glaysia/PeetsFEA.git@0.1.7#egg=PeetsFEA
+pip install git+https://github.com/Glaysia/PeetsFEA.git@0.1.8#egg=PeetsFEA
 
 pkill -9 -f 'run_1.sh|python|ansys|MAX|3d'
 
