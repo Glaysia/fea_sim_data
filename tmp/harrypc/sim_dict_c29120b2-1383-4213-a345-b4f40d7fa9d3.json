@@ -1,0 +1,787 @@
+{
+  "aedt_dir": "parrarel2",
+  "xformer_type": 0,
+  "per": 3000,
+  "freq_khz": 140,
+  "is_validated": true,
+  "data": {
+    "simulation parameter": {
+      "A [mm]": {
+        "0": 64.4
+      },
+      "B [mm]": {
+        "0": 55.2
+      },
+      "C [mm]": {
+        "0": 17.6
+      },
+      "core_N_w1 [mm]": {
+        "0": 20
+      },
+      "core_P_w1 [mm]": {
+        "0": 26
+      },
+      "D [mm]": {
+        "0": 8.4
+      },
+      "E [mm]": {
+        "0": 3.8
+      },
+      "g1 [mm]": {
+        "0": 0.1
+      },
+      "g2 [mm]": {
+        "0": 0.42
+      },
+      "h1 [mm]": {
+        "0": 7.6
+      },
+      "l1_center [mm]": {
+        "0": 17.6
+      },
+      "l1_leg [mm]": {
+        "0": 4.6
+      },
+      "l1_top [mm]": {
+        "0": 4.6
+      },
+      "l2 [mm]": {
+        "0": 18.8
+      },
+      "l2_tap [mm]": {
+        "0": 0
+      },
+      "ratio [mm]": {
+        "0": 0.51
+      },
+      "Rx_height [mm]": {
+        "0": 0.175
+      },
+      "Rx_hTurns []": {
+        "0": 1
+      },
+      "Rx_layer_space_x [mm]": {
+        "0": 1.8
+      },
+      "Rx_layer_space_y [mm]": {
+        "0": 0.4
+      },
+      "Rx_preg [mm]": {
+        "0": 0.1
+      },
+      "Rx_space_x [mm]": {
+        "0": 4.3
+      },
+      "Rx_space_y [mm]": {
+        "0": 3.1
+      },
+      "Rx_tap [mm]": {
+        "0": 10
+      },
+      "Rx_turns [mm]": {
+        "0": 2
+      },
+      "Rx_width [mm]": {
+        "0": 2.5
+      },
+      "seed [mm]": {
+        "0": 1367762648
+      },
+      "Tx_height [mm]": {
+        "0": 0.105
+      },
+      "Tx_hTurns []": {
+        "0": 7
+      },
+      "Tx_layer_space_x [mm]": {
+        "0": 0.2
+      },
+      "Tx_layer_space_y [mm]": {
+        "0": 4.9
+      },
+      "Tx_preg [mm]": {
+        "0": 0.02
+      },
+      "Tx_space_x [mm]": {
+        "0": 2.2
+      },
+      "Tx_space_y [mm]": {
+        "0": 2.5
+      },
+      "Tx_tap [mm]": {
+        "0": 26
+      },
+      "Tx_turns [mm]": {
+        "0": 14
+      },
+      "Tx_width [mm]": {
+        "0": 0.28
+      },
+      "w1 [mm]": {
+        "0": 26
+      },
+      "Freq [kHz]": {
+        "0": 140
+      },
+      "Matrix1.L(Tx1,Tx1) [uH]": {
+        "0": 456.130673823226
+      },
+      "Matrix1.L(Rx1,Rx1) [uH]": {
+        "0": 18.631274957862
+      },
+      "Matrix1.L(Rx2,Rx2) [uH]": {
+        "0": 18.6354707245447
+      },
+      "Matrix1.L(Tx1,Rx1) [uH]": {
+        "0": -90.6112788409177
+      },
+      "Matrix1.L(Tx1,Rx2) [uH]": {
+        "0": -90.6117542158345
+      },
+      "Matrix1.CplCoef(Tx1,Rx1) []": {
+        "0": -0.982915837879674
+      },
+      "Matrix1.CplCoef(Tx1,Rx2) []": {
+        "0": -0.982810336253399
+      },
+      "Matrix1.L(Tx1,Tx1)*(Matrix1.CplCoef(Tx1,Rx1)^2) [uH]": {
+        "0": 440.678583282993
+      },
+      "Matrix1.L(Rx1,Rx1)*(Matrix1.CplCoef(Tx1,Rx1)^2) [uH]": {
+        "0": 18.0001133981366
+      },
+      "Matrix1.L(Rx2,Rx2)*(Matrix1.CplCoef(Tx1,Rx2)^2) [uH]": {
+        "0": 18.0003022670051
+      },
+      "Matrix1.L(Tx1,Tx1)*(1-Matrix1.CplCoef(Tx1,Rx1)^2) [uH]": {
+        "0": 15.4520905402325
+      },
+      "Matrix1.L(Rx1,Rx1)*(1-Matrix1.CplCoef(Tx1,Rx1)^2) [nH]": {
+        "0": 631.161559725369
+      },
+      "Matrix1.L(Rx2,Rx2)*(1-Matrix1.CplCoef(Tx1,Rx2)^2) [nH]": {
+        "0": 635.168457539556
+      }
+    },
+    "_get_magnetic_report": {
+      "Ltx_uH": 456.130673823226,
+      "Lrx1_uH": 18.631274957862,
+      "Lrx2_uH": 18.6354707245447,
+      "M1_uH": 90.6112788409177,
+      "M2_uH": 90.6117542158345,
+      "k1_uH": 0.982915837879674,
+      "k2_uH": 0.982810336253399,
+      "Lmt_uH": 440.678583282993,
+      "Lmr1_uH": 18.0001133981366,
+      "Lmr2_uH": 18.0003022670051,
+      "Llt_uH": 15.4520905402325,
+      "Llr1_uH": 0.631161559725369,
+      "Llr2_uH": 0.635168457539556
+    },
+    "copper loss data": {
+      "Freq [kHz]": {
+        "0": 140
+      },
+      "Distance [mm]": {
+        "0": 1
+      },
+      "P_Tx_1 []": {
+        "0": 0.403980483713665
+      },
+      "Distance [mm].1": {
+        "0": 1
+      },
+      "P_Rx_False_True_1 []": {
+        "0": 0.0251376603241545
+      },
+      "Distance [mm].2": {
+        "0": 1
+      },
+      "P_Rx_True_True_1 []": {
+        "0": 0.0257148849620053
+      }
+    },
+    "_get_copper_loss_parameter": {
+      "P_Tx_1 []": {
+        "0": 13.3872555828959
+      },
+      "P_Rx_False_True_1 []": {
+        "0": 2.56631405498568
+      },
+      "P_Rx_True_True_1 []": {
+        "0": 0.51346097671014
+      }
+    },
+    "magnetizing_current": 0.7114096641865617,
+    "coreloss parameter": {
+      "A [mm]": {
+        "0": 64.4
+      },
+      "B [mm]": {
+        "0": 55.2
+      },
+      "C [mm]": {
+        "0": 17.6
+      },
+      "core_N_w1 [mm]": {
+        "0": 20
+      },
+      "core_P_w1 [mm]": {
+        "0": 26
+      },
+      "D [mm]": {
+        "0": 8.4
+      },
+      "E [mm]": {
+        "0": 3.8
+      },
+      "g1 [mm]": {
+        "0": 0.1
+      },
+      "g2 [mm]": {
+        "0": 0.42
+      },
+      "h1 [mm]": {
+        "0": 7.6
+      },
+      "l1_center [mm]": {
+        "0": 17.6
+      },
+      "l1_leg [mm]": {
+        "0": 4.6
+      },
+      "l1_top [mm]": {
+        "0": 4.6
+      },
+      "l2 [mm]": {
+        "0": 18.8
+      },
+      "l2_tap [mm]": {
+        "0": 0
+      },
+      "ratio [mm]": {
+        "0": 0.51
+      },
+      "Rx_height [mm]": {
+        "0": 0.175
+      },
+      "Rx_hTurns []": {
+        "0": 1
+      },
+      "Rx_layer_space_x [mm]": {
+        "0": 1.8
+      },
+      "Rx_layer_space_y [mm]": {
+        "0": 0.4
+      },
+      "Rx_preg [mm]": {
+        "0": 0.1
+      },
+      "Rx_space_x [mm]": {
+        "0": 4.3
+      },
+      "Rx_space_y [mm]": {
+        "0": 3.1
+      },
+      "Rx_tap [mm]": {
+        "0": 10
+      },
+      "Rx_turns [mm]": {
+        "0": 2
+      },
+      "Rx_width [mm]": {
+        "0": 2.5
+      },
+      "seed [mm]": {
+        "0": 1367762648
+      },
+      "Tx_height [mm]": {
+        "0": 0.105
+      },
+      "Tx_hTurns []": {
+        "0": 7
+      },
+      "Tx_layer_space_x [mm]": {
+        "0": 0.2
+      },
+      "Tx_layer_space_y [mm]": {
+        "0": 4.9
+      },
+      "Tx_preg [mm]": {
+        "0": 0.02
+      },
+      "Tx_space_x [mm]": {
+        "0": 2.2
+      },
+      "Tx_space_y [mm]": {
+        "0": 2.5
+      },
+      "Tx_tap [mm]": {
+        "0": 26
+      },
+      "Tx_turns [mm]": {
+        "0": 14
+      },
+      "Tx_width [mm]": {
+        "0": 0.28
+      },
+      "w1 [mm]": {
+        "0": 26
+      },
+      "Freq [kHz]": {
+        "0": 140
+      },
+      "Coreloss [W]": {
+        "0": 1.46
+      }
+    },
+    "coreloss_project": {
+      "Coreloss [W]": 1.46
+    },
+    "B mean report": {
+      "Freq [kHz]": {
+        "0": 140
+      },
+      "Distance [mm]": {
+        "0": 1
+      },
+      "B_mean_leg_left []": {
+        "0": 0.0658889039418608
+      },
+      "Distance [mm].1": {
+        "0": 1
+      },
+      "B_mean_leg_center []": {
+        "0": 0.0459337338881739
+      },
+      "Distance [mm].2": {
+        "0": 1
+      },
+      "B_mean_leg_right []": {
+        "0": 0.0876103909506476
+      },
+      "Distance [mm].3": {
+        "0": 1
+      },
+      "B_mean_leg_top_left []": {
+        "0": 0.0887958965151845
+      },
+      "Distance [mm].4": {
+        "0": 1
+      },
+      "B_mean_leg_bottom_left []": {
+        "0": 0.0887978701476723
+      },
+      "Distance [mm].5": {
+        "0": 1
+      },
+      "B_mean_leg_top_right []": {
+        "0": 0.0899953138672176
+      },
+      "Distance [mm].6": {
+        "0": 1
+      },
+      "B_mean_leg_bottom_right []": {
+        "0": 0.0900173280619864
+      }
+    },
+    "__get_B_field": {
+      "B_mean_leg_left []": 0.0658889039418608,
+      "B_mean_leg_center []": 0.0459337338881739,
+      "B_mean_leg_right []": 0.0876103909506476,
+      "B_mean_leg_top_left []": 0.0887958965151845,
+      "B_mean_leg_bottom_left []": 0.0887978701476723,
+      "B_mean_leg_top_right []": 0.0899953138672176,
+      "B_mean_leg_bottom_right []": 0.0900173280619864
+    },
+    "_get_copper_loss_parameter_after": {
+      "P_Tx_1 []": {
+        "0": 0.403980483713665
+      },
+      "P_Rx_False_True_1 []": {
+        "0": 0.0251376603241545
+      },
+      "P_Rx_True_True_1 []": {
+        "0": 0.0257148849620053
+      }
+    }
+  },
+  "o3ds": {
+    "core_base": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83dc360ee0>",
+    "core_sub1": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83dc3610f0>",
+    "core_sub2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83dc360e20>",
+    "core_sub_g1": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83dc361150>",
+    "core_sub_g2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83dc360e50>",
+    "core_unite_sub_g1": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83dc360e80>",
+    "Tx_connect": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7d83dc360bb0>",
+    "Tx_1": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7d83dc360eb0>",
+    "Tx_2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83dc3622f0>",
+    "Rx_False_True_connect": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7d84004452a0>",
+    "Rx_False_True_1": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7d83dcc6b8b0>",
+    "Rx_False_True_2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83dc3625c0>",
+    "Rx_True_True_connect": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7d83dcc6ab30>",
+    "Rx_True_True_1": "<ansys.aedt.core.modeler.cad.polylines.Polyline object at 0x7d83dc362830>",
+    "Rx_True_True_2": "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83dc362920>",
+    "B_fields": [
+      "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83da72d960>",
+      "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83da72d7e0>",
+      "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83da72ddb0>",
+      "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83da72d630>",
+      "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83da72ded0>",
+      "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83da7b0cd0>",
+      "<ansys.aedt.core.modeler.cad.object_3d.Object3d object at 0x7d83da7b0eb0>"
+    ]
+  },
+  "progress": "",
+  "progress_dict": {
+    "2025-07-27 21:10:56": [
+      "set_variable_byrange",
+      "0.2280s"
+    ],
+    "2025-07-27 21:11:02": [
+      "validate_variable_4Core",
+      "0.5052s"
+    ],
+    "2025-07-27 21:11:03": [
+      "validate_variable_4Tx",
+      "0.5613s"
+    ],
+    "2025-07-27 21:11:04": [
+      "validate_variable",
+      "2.2446s"
+    ],
+    "2025-07-27 21:11:05": [
+      "validate_variable_4Tx",
+      "0.9807s"
+    ],
+    "2025-07-27 21:11:07": [
+      "validate_variable_4Rx",
+      "1.0618s"
+    ],
+    "2025-07-27 21:11:08": [
+      "create_winding_new",
+      "1.8563s"
+    ],
+    "2025-07-27 21:11:09": [
+      "create_winding_new",
+      "0.5638s"
+    ],
+    "2025-07-27 21:11:10": [
+      "assign_mesh",
+      "0.0192s"
+    ],
+    "2025-07-27 21:11:15": [
+      "validate_design",
+      "0.2137s"
+    ],
+    "2025-07-27 21:19:16": [
+      "analyze_all",
+      "481.4996s"
+    ],
+    "2025-07-27 21:19:18": [
+      "get_input_parameter",
+      "0.0006s"
+    ],
+    "2025-07-27 21:19:20": [
+      "_get_copper_loss_parameter",
+      "2.4766s"
+    ],
+    "2025-07-27 21:19:25": [
+      "__create_B_field",
+      "2.0586s"
+    ],
+    "2025-07-27 21:23:47": [
+      "_get_mean_Bfield",
+      "0.0277s"
+    ],
+    "2025-07-27 21:23:53": [
+      "__get_B_field",
+      "6.0579s"
+    ],
+    "2025-07-27 21:23:54": [
+      "coreloss_project",
+      "273.2092s"
+    ]
+  },
+  "start_time_pretty": "2025-07-27 21:10:26",
+  "start_time": "554035117411938",
+  "end_time_pretty": "2025-07-27 21:23:54",
+  "end_time": "554843105681633",
+  "design_name": "xform_2_Design",
+  "project_name": "xform_2_Project",
+  "modeler": "<ansys.aedt.core.modeler.modeler_3d.Modeler3D object at 0x7d8400957700>",
+  "v": {
+    "w1": 26.0,
+    "l1_leg": 4.6,
+    "l1_top": 4.6,
+    "l1_center": 17.6,
+    "l2": 18.8,
+    "h1": 7.6,
+    "l2_tap": 0.0,
+    "ratio": 0.51,
+    "Tx_turns": 14.0,
+    "Tx_tap": 26.0,
+    "Tx_height": 0.105,
+    "Tx_preg": 0.02,
+    "Rx_turns": 2.0,
+    "Rx_tap": 10.0,
+    "Rx_height": 0.175,
+    "Rx_preg": 0.1,
+    "g1": 0.1,
+    "g2": 0.42,
+    "Tx_space_x": 2.2,
+    "Tx_space_y": 2.5,
+    "Rx_space_x": 4.3,
+    "Rx_space_y": 3.1,
+    "core_N_w1": 20.0,
+    "core_P_w1": 26.0,
+    "Tx_layer_space_x": 0.2,
+    "Tx_layer_space_y": 4.9,
+    "Rx_layer_space_x": 1.8,
+    "Rx_layer_space_y": 0.4,
+    "Tx_width": 0.28,
+    "Rx_width": 2.5,
+    "seed": 1367762648,
+    "A": 64.4,
+    "B": 55.2,
+    "C": 17.6,
+    "D": 8.399999999999999,
+    "E": 3.8
+  },
+  "comments": [],
+  "coils_main": [
+    "Tx_1",
+    "Rx_False_True_1",
+    "Rx_True_True_1"
+  ],
+  "sim_global": {
+    "sim": "<peetsfea.xformermaker.project1.project2.Project2 object at 0x7d8400956ef0>",
+    "debugging": false
+  },
+  "r": {
+    "w1": [
+      2,
+      52,
+      1.2,
+      1
+    ],
+    "l1_leg": [
+      1,
+      12,
+      1.2,
+      3
+    ],
+    "l1_top": [
+      1,
+      12,
+      1.2,
+      3
+    ],
+    "l1_center": [
+      2,
+      25,
+      1.2,
+      3
+    ],
+    "l2": [
+      2,
+      25,
+      1.2,
+      3
+    ],
+    "h1": [
+      4,
+      52,
+      1.2,
+      2
+    ],
+    "l2_tap": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "ratio": [
+      0.5,
+      0.5,
+      0.01,
+      2
+    ],
+    "Tx_turns": [
+      14,
+      14,
+      1,
+      0
+    ],
+    "Tx_tap": [
+      2,
+      35,
+      1,
+      0
+    ],
+    "Tx_height": [
+      0.035,
+      0.175,
+      0.035,
+      3
+    ],
+    "Tx_preg": [
+      0.01,
+      0.1,
+      0.01,
+      2
+    ],
+    "Rx_turns": [
+      2,
+      2,
+      1,
+      0
+    ],
+    "Rx_tap": [
+      2,
+      35,
+      1,
+      0
+    ],
+    "Rx_height": [
+      0.035,
+      0.175,
+      0.035,
+      3
+    ],
+    "Rx_preg": [
+      0.01,
+      0.1,
+      0.01,
+      2
+    ],
+    "g1": [
+      0.1,
+      0.1,
+      0.01,
+      2
+    ],
+    "g2": [
+      0,
+      0.5,
+      0.01,
+      2
+    ],
+    "Tx_space_x": [
+      0.1,
+      7,
+      0.1,
+      2
+    ],
+    "Tx_space_y": [
+      0.1,
+      7,
+      0.1,
+      2
+    ],
+    "Rx_space_x": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Rx_space_y": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "core_N_w1": [
+      0,
+      30,
+      1,
+      0
+    ],
+    "core_P_w1": [
+      0,
+      30,
+      1,
+      0
+    ],
+    "Tx_layer_space_x": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Tx_layer_space_y": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Rx_layer_space_x": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Rx_layer_space_y": [
+      0.1,
+      5,
+      0.1,
+      1
+    ],
+    "Tx_width": [
+      0.1,
+      12,
+      0.01,
+      2
+    ],
+    "Rx_width": [
+      1,
+      20,
+      0.1,
+      1
+    ]
+  },
+  "mat": "<ansys.aedt.core.modules.material.Material object at 0x7d83dcc680a0>",
+  "bp_point": [
+    [
+      0,
+      0
+    ],
+    [
+      0.05,
+      20.32
+    ],
+    [
+      0.06,
+      35.08
+    ],
+    [
+      0.07,
+      55.3
+    ],
+    [
+      0.08,
+      80.4
+    ],
+    [
+      0.09,
+      111.05
+    ],
+    [
+      0.1,
+      156.79
+    ],
+    [
+      0.2,
+      1002.4
+    ]
+  ],
+  "setting": {
+    "cores": 1,
+    "tasks": 1,
+    "gpus": 1,
+    "use_auto_settings": false
+  },
+  "Lmt_uH": 440.678583282993,
+  "input_parameter": "     w1  l1_leg  l1_top  l1_center    l2   h1  l2_tap  ratio  Tx_turns  \\\n0  26.0     4.6     4.6       17.6  18.8  7.6     0.0   0.51      14.0   \n\n   Tx_tap  Tx_height  Tx_preg  Rx_turns  Rx_tap  Rx_height  Rx_preg   g1  \\\n0    26.0      0.105     0.02       2.0    10.0      0.175      0.1  0.1   \n\n     g2  Tx_space_x  Tx_space_y  Rx_space_x  Rx_space_y  core_N_w1  core_P_w1  \\\n0  0.42         2.2         2.5         4.3         3.1       20.0       26.0   \n\n   Tx_layer_space_x  Tx_layer_space_y  Rx_layer_space_x  Rx_layer_space_y  \\\n0               0.2               4.9               1.8               0.4   \n\n   Tx_width  Rx_width        seed     A     B     C    D    E  \n0      0.28       2.5  1367762648  64.4  55.2  17.6  8.4  3.8  ",
+  "exception": null
+}
